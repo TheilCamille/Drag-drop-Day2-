@@ -1,0 +1,49 @@
+#pig {
+    position: relative;
+    height: 256px;
+    width: 256px;
+
+    margin: auto;
+    
+    background: url("../assets/img/pig.png");
+    background-size: cover;
+    z-index: 2;
+    text-align: center;
+
+}
+
+p {
+    margin-bottom: 50px;
+
+}
+#coin1, #coin2, #coin3, #coin4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 50px;
+    width: 50px;
+
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: gold;
+    z-index: 1;
+}
+
+#coin2 {
+    background-color: brown;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+    width: 75px;
+}
